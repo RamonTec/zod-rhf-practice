@@ -11,6 +11,7 @@ type RHFOnly = {
 };
 
 export default function RHFOnlyForm() {
+  
   const { register, handleSubmit, getValues, formState: { errors, isSubmitting } } =
     useForm<RHFOnly>({ mode: "onSubmit" });
 

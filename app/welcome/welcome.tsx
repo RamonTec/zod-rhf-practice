@@ -15,7 +15,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container sx={{ py: 6 }}>
-        <Typography variant="h4" gutterBottom>zod-lab (MUI Edition)</Typography>
+        <Typography variant="h4" gutterBottom>zod-lab with RHF and api validations</Typography>
         <Grid container spacing={3}>
           <Grid size={{xs: 12, md: 6}} ><RHFOnlyForm /></Grid>
           <Grid size={{xs: 12, md: 6}} ><ZodOnlyForm /></Grid>
